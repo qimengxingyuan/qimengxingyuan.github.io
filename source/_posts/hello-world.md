@@ -7,35 +7,38 @@ abbrlink: 16107
 欢迎光临[祈梦星缘的Blog](https://yhzhao.cn/)! 这是本站的第一篇文章，在这篇文章中会手把手的教你搭建完成 ✅ 属于自己的blog空间。快跟随我开始吧！ 
 
 ## Quick Start
+我们的博客搭建是基于Hexo和Githup Pages来完成的。搭建完成后的资源部署到github.io上。同时可以给我们的博客来设置一个自己的访问域名。
 
-### 准备Github账号和仓库
+### 为什么使用 GitHub Pages
+如果你想要搭建一个轻量级的个人博客服务，GitHub Pages 相较 WordPress 之类的建站服务有什么优势呢？
+- 首先他是完全免费的，相较其他的同类产品，他能替你省下一笔服务费，节约下的钱可以让你买一些其他的会员服务；
+- 无须自己购买云服务进行搭建，只需按步骤一步步操作即可，即使你不懂他的技术细节；
+- 支持的功能多，玩法丰富，你可以绑定你的域名、使用免费的 HTTPS、自己 DIY 网站的主题、使用他人开发好的插件等等；
+- 当完成搭建后，你只需要专注于文章创作就可以了，其他诸如环境搭建、系统维护、文件存储的事情一概不用操心，都由 GitHub 处理
 
-``` bash
-$ hexo new "My New Post"
-```
+当然了，作为一款免费的服务，我们也是要遵守 GitHub 官方使用建议和限制，在使用的时候项目和网站的大小不要超过 1GB，也不要过于频繁的更新网站的内容（每小时不超过 10 个版本），每个月的也要注意带宽使用上限为 100GB。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+综合来看，GitHub Pages 依旧可以说是中小型博客或项目主页的最佳选项之一。
 
-### Run server
+### 一、准备Github账号和仓库
+首先你需要注册Github账号。并在个人主界面里选择创建一个新的 Repository。要注意的是仓库名称的格式形式必须是：`username.github.io`。
 
-``` bash
-$ hexo server
-```
+- 这里插入图片
 
-More info: [Server](https://hexo.io/docs/server.html)
+仓库创建完成之后转到Setting页面。找到 Pages 选项，选择一个 GitHub 官方提供的主题。选择完毕之后 GitHub Pages 就会自动帮你生成好网站，在他跳转的界面点击 Commit changes 按钮，网站就可以访问了。
 
-### Generate static files
+### 二、使用Hexo进行网站开发和部署
+- 安装
+- 命令介绍
+- 初始化
+- 插件
+- 写文章
+- 本地调试
+- 推送
 
-``` bash
-$ hexo generate
-```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+### 三、使用CI集成工具
+- 介绍
+- 注册&配置
+- 修改文件
+- 发布
