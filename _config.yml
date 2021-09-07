@@ -4,7 +4,7 @@
 
 # Site
 title: 祈梦星缘的Blog
-subtitle: ''
+subtitle: 'Welcome'
 description: ''
 keywords:
 author: zhaoyonghui
@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://qimengxingyuan.github.io
-permalink: :year/:month/:day/:title/
+url: https://yhzhao.cn
+permalink: articles/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -119,15 +119,6 @@ permalink_pinyin:
   enable: true
   separator: '-' # default: '-'
 
-# postInfo
-## 文章字数统计
-postInfo:
-  date: true
-  update: true
-  wordCount: true # 设置文章字数统计为 true.
-  totalCount: true # 设置站点文章总字数统计为 true.
-  min2read: true # 阅读时长.
-  readCount: true # 阅读次数.
 
 # emoji 支持
 githubEmojis:
@@ -147,3 +138,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+abbrlink: 
+    alg: crc16 #算法： 
+    crc16(default) and crc32 rep: hex #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
