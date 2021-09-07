@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 祈梦星缘的Blog2
+title: 祈梦星缘的Blog
 subtitle: ''
 description: ''
 keywords:
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,7 +105,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:qimengxingyuan/qimengxingyuan.github.io.git
-  branch: master
+  branch: gh-pages
 
 # Search
 ## search
