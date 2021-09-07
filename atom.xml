@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>祈梦星缘的Blog2</title>
+  <title>祈梦星缘的Blog</title>
   
   
   <link href="https://qimengxingyuan.github.io/atom.xml" rel="self"/>
   
   <link href="https://qimengxingyuan.github.io/"/>
-  <updated>2021-09-06T19:47:16.565Z</updated>
+  <updated>2021-09-07T00:57:39.753Z</updated>
   <id>https://qimengxingyuan.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://qimengxingyuan.github.io/2021/09/06/hello-world/"/>
-    <id>https://qimengxingyuan.github.io/2021/09/06/hello-world/</id>
-    <published>2021-09-06T19:47:16.565Z</published>
-    <updated>2021-09-06T19:47:16.565Z</updated>
+    <link href="https://qimengxingyuan.github.io/2021/09/07/hello-world/"/>
+    <id>https://qimengxingyuan.github.io/2021/09/07/hello-world/</id>
+    <published>2021-09-07T00:57:39.753Z</published>
+    <updated>2021-09-07T00:57:39.753Z</updated>
     
     
       
