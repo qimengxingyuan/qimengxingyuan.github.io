@@ -241,7 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #00838f 70%, #7e27b0 100%);
+    opacity: 0.7;
 }
 
 .text-color {
@@ -257,8 +258,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-    opacity: 0.8;
+    background: linear-gradient(to right, #00838f 0%, #9c27b0 100%);
+    opacity: 0.9;
 }
 
 .sidenav-overlay {
@@ -1903,7 +1904,7 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(to bottom right, #d4a4be 0%, #85b3e7 100%);
     width: 48px;
     height: 48px;
 }
@@ -2138,3 +2139,4 @@ footer .copy-right {
     padding: 0;
     margin: 0;
 }
+
