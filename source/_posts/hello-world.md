@@ -3,6 +3,8 @@ title: Hello World
 tags:
   - 建站
 abbrlink: 16107
+categories:
+  - 踩坑记录
 ---
 欢迎光临[祈梦星缘的Blog](https://yhzhao.cn/)! 这是本站的第一篇文章，在这篇文章中会手把手的教你搭建完成 ✅ 属于自己的blog空间。快跟随我开始吧！ 
 
