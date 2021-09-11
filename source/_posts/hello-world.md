@@ -29,6 +29,8 @@ categories:
 
 仓库创建完成之后转到Setting页面。找到 Pages 选项，选择一个 GitHub 官方提供的主题。选择完毕之后 GitHub Pages 就会自动帮你生成好网站，在他跳转的界面点击 Commit changes 按钮，网站就可以访问了。
 
+- 这里插入图片
+
 ### 二、使用Hexo进行网站开发和部署
 - 安装
 - 命令介绍
