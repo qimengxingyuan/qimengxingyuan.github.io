@@ -4,15 +4,16 @@ top: false
 cover: false
 toc: true
 mathjax: true
-date: 2021-09-15 00:35:26
-password:
-summary:
 tags:
   - 分布式
   - Raft
   - Paxos
 categories:
   - 论文
+abbrlink: 24081
+date: 2021-09-15 00:35:26
+password:
+summary:
 ---
 # 摘要
 
